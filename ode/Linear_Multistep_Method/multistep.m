@@ -1,0 +1,5 @@
+% 2018/8/6 17:17
+% 感觉没有什么实现的必要。就是套公式了
+% {
+    {\begin{aligned}y_{{n+1}}&=y_{n}+hf(t_{n},y_{n}),\qquad {\text{(This is the Euler method)}}\\y_{{n+2}}&=y_{{n+1}}+h\left({\frac  {3}{2}}f(t_{{n+1}},y_{{n+1}})-{\frac  {1}{2}}f(t_{n},y_{n})\right),\\y_{{n+3}}&=y_{{n+2}}+h\left({\frac  {23}{12}}f(t_{{n+2}},y_{{n+2}})-{\frac  {4}{3}}f(t_{{n+1}},y_{{n+1}})+{\frac  {5}{12}}f(t_{n},y_{n})\right),\\y_{{n+4}}&=y_{{n+3}}+h\left({\frac  {55}{24}}f(t_{{n+3}},y_{{n+3}})-{\frac  {59}{24}}f(t_{{n+2}},y_{{n+2}})+{\frac  {37}{24}}f(t_{{n+1}},y_{{n+1}})-{\frac  {3}{8}}f(t_{n},y_{n})\right),\\y_{{n+5}}&=y_{{n+4}}+h\left({\frac  {1901}{720}}f(t_{{n+4}},y_{{n+4}})-{\frac  {1387}{360}}f(t_{{n+3}},y_{{n+3}})+{\frac  {109}{30}}f(t_{{n+2}},y_{{n+2}})-{\frac  {637}{360}}f(t_{{n+1}},y_{{n+1}})+{\frac  {251}{720}}f(t_{n},y_{n})\right).\end{aligned}}
+%}
